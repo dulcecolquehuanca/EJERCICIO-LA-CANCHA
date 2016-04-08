@@ -1,0 +1,55 @@
+.pasto{
+	width: 800px;
+	height: 400px;
+	background-color: #8BB27B;
+	margin:auto;
+	margin-top: 70px;
+}
+.pasto > div{
+	width:760px;
+	height: 360px;
+	position:relative;
+	border: 1px solid #fff;
+	top:20px;
+	left:20px;
+}
+.peque {
+	width:120px;
+	height: 180px;
+	border:1px solid #fff;
+	position:absolute;
+}
+.izq{
+	left:0px;
+	top:90px;
+	border-left:0px;
+}
+.der{
+	right:0px;
+	top:90px;
+	border-right:0px;
+}
+.circulo {
+	width:200px;
+	height: 200px;
+	border:1px solid #fff;
+	border-radius: 50%;
+	position:absolute;
+	left:280px;
+	top:90px;
+}
+.bola-izq {
+	position:absolute;
+	top:95px;
+	left:110px;
+}
+.bola-centro {
+	position:absolute;
+	top:45px;
+	left:380px;
+}
+.bola-der {
+	position:absolute;
+	top:240px;
+	right:125px;
+}
